@@ -29,5 +29,18 @@ public class Learning {
         point1.x = 2;
         System.out.println(point2);
         System.out.println(y);
+
+        //tried fizzbuzz using java
+        for (int i = 0; i <= 15; i++) {
+            if (i % 15 == 0 )
+                System.out.println("FizzBuzz" + " ");
+            else if (i%5==0)
+                System.out.print("Buzz"+" ");
+            else if (i%3==0)
+                System.out.print("Fizz"+" ");
+            else
+                System.out.println(i + " ");
+        }
+
     }
 }
